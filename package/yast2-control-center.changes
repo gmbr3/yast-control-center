@@ -66,7 +66,7 @@ Sun Nov 25 01:53:03 UTC 2018 - Stasiek Michalski <hellcp@mailbox.org>
 Wed Sep 19 10:18:32 UTC 2018 - Stefan Hundhammer <shundhammer@suse.com>
 
 - Enable HiDPI (bsc#1089886)
-- 4.1.2 
+- 4.1.2
 
 -------------------------------------------------------------------
 Mon Aug 20 13:51:27 CEST 2018 - schubi@suse.de
@@ -234,7 +234,7 @@ Thu Mar 15 18:29:56 CET 2012 - aschnell@suse.de
 -------------------------------------------------------------------
 Mon Jan 30 16:46:38 CET 2012 - tgoettlicher@suse.de
 
-- Fixed bnc#742748: selected groups with keyboard 
+- Fixed bnc#742748: selected groups with keyboard
 - Version: 2.22.1
 
 -------------------------------------------------------------------
@@ -282,13 +282,13 @@ Thu May  5 15:57:43 CEST 2011 - tgoettlicher@suse.de
 -------------------------------------------------------------------
 Wed Apr 27 17:22:24 CEST 2011 - tgoettlicher@suse.de
 
-- Removed useless warning message (bnc #620617) 
+- Removed useless warning message (bnc #620617)
 - 2.21.1
 
 -------------------------------------------------------------------
 Wed Feb 23 13:06:01 CET 2011 - tgoettlicher@suse.de
 
-- remember panel width (bnc #613352) 
+- remember panel width (bnc #613352)
 - 2.20.2
 
 -------------------------------------------------------------------
@@ -301,26 +301,26 @@ Tue Feb 22 17:36:58 CET 2011 - tgoettlicher@suse.de
 Tue Feb 22 14:20:36 CET 2011 - tgoettlicher@suse.de
 
 - bnc #661109: Layout of icons gets mixed after using search
-- 2.20.0 
+- 2.20.0
 
 -------------------------------------------------------------------
 Mon Oct 11 11:17:55 CEST 2010 - tgoettlicher@suse.de
 
 - Adapted license format
-- 2.19.3 
+- 2.19.3
 
 -------------------------------------------------------------------
 Fri Oct  8 12:32:21 CEST 2010 - tgoettlicher@suse.de
 
 - fixed: bnc #644856: wrong systemsetting category
-- 2.19.2 
+- 2.19.2
 
 -------------------------------------------------------------------
 Thu Mar 11 13:51:41 CET 2010 - kmachalkova@suse.cz
 
 - Integrate YaST with new KControl - it is ExternaApp, not KCModule
   (bnc#574864)
-- 2.19.1 
+- 2.19.1
 
 -------------------------------------------------------------------
 Thu Jan  7 14:24:15 CET 2010 - jsrain@suse.cz
@@ -341,8 +341,8 @@ Thu Dec 10 13:03:24 CET 2009 - kmachalkova@suse.cz
 -------------------------------------------------------------------
 Mon Nov 23 16:30:53 CET 2009 - kmachalkova@suse.cz
 
-- Use 'YaST' instead of 'YaST2' in messages and window titlebars 
-  (bnc#532518) 
+- Use 'YaST' instead of 'YaST2' in messages and window titlebars
+  (bnc#532518)
 
 -------------------------------------------------------------------
 Tue Oct 20 11:59:43 CEST 2009 - kmachalkova@suse.cz
@@ -356,16 +356,16 @@ Tue Oct 20 11:59:43 CEST 2009 - kmachalkova@suse.cz
 -------------------------------------------------------------------
 Tue Sep  1 17:56:45 CEST 2009 - kmachalkova@suse.cz
 
-- Use more contrast colours for highlighted items in icon view 
+- Use more contrast colours for highlighted items in icon view
   (bnc#531528)
-- Pre-select 1st module category (partly bnc#531529) 
+- Pre-select 1st module category (partly bnc#531529)
 - 2.18.11
 
 -------------------------------------------------------------------
 Mon Aug 24 15:51:45 CEST 2009 - kmachalkova@suse.cz
 
-- Scroll icon view so that category header is in the topmost 
-  position (if possible) - bnc#525288 
+- Scroll icon view so that category header is in the topmost
+  position (if possible) - bnc#525288
 - 2.18.10
 
 -------------------------------------------------------------------
@@ -376,14 +376,14 @@ Wed Aug 19 16:21:09 UTC 2009 - wstephenson@novell.com
 -------------------------------------------------------------------
 Tue Aug 18 17:57:48 CEST 2009 - kmachalkova@suse.cz
 
-- Use left mouse single click (bnc#525287) and/or 'Enter' key 
-  (bnc#528631) to launch the modules 
+- Use left mouse single click (bnc#525287) and/or 'Enter' key
+  (bnc#528631) to launch the modules
 - 2.18.9
 
 -------------------------------------------------------------------
 Tue Aug 11 15:47:04 CEST 2009 - kmachalkova@suse.cz
 
-- Two X-KDE-* keys added to .desktop to enable launching of YaST 
+- Two X-KDE-* keys added to .desktop to enable launching of YaST
   from within KDE System Settings (bnc#526911)
 - Removed X-KDE-SubstituteUID from .desktop, using Exec=xdg-su ..
   instead. Thus, OnlyShowIn key is not needed anymore (bnc#525876)
@@ -392,7 +392,7 @@ Tue Aug 11 15:47:04 CEST 2009 - kmachalkova@suse.cz
 -------------------------------------------------------------------
 Thu Jul 30 15:02:04 CEST 2009 - kmachalkova@suse.cz
 
-- Support search in module keywords (X-SuSE-YaST-Keywords) 
+- Support search in module keywords (X-SuSE-YaST-Keywords)
   (FaTE#305845)
 - 2.18.7
 
@@ -400,9 +400,9 @@ Thu Jul 30 15:02:04 CEST 2009 - kmachalkova@suse.cz
 Fri Jul 17 13:38:07 CEST 2009 - kmachalkova@suse.cz
 
 - Show warning (user is not root) at startup
-- Process CLI options 
+- Process CLI options
 - Put $YAST_DESKTOP_DIR support back again
-- Enable translating strings in 'control-center' textdomain + 
+- Enable translating strings in 'control-center' textdomain +
   generating pot files by y2tools
 - 2.18.6
 
@@ -420,7 +420,7 @@ Tue Jul  7 12:43:23 CEST 2009 - kmachalkova@suse.cz
 Fri Jun 26 18:05:48 CEST 2009 - kmachalkova@suse.cz
 
 - Initial version of Qt4 port (FaTE #305550)
-- 2.18.4 
+- 2.18.4
 
 -------------------------------------------------------------------
 Thu Jun  4 17:16:19 CEST 2009 - tgoettlicher@suse.de
@@ -438,7 +438,7 @@ Thu Jun  4 16:55:49 CEST 2009 - tgoettlicher@suse.de
 Wed Nov 19 13:05:31 CET 2008 - sh@suse.de
 
 - Fixed bnc #445781: Module groups not translated
-- V 2.17.3 
+- V 2.17.3
 
 -------------------------------------------------------------------
 Tue Nov 11 17:13:33 CET 2008 - ro@suse.de
@@ -449,7 +449,7 @@ Tue Nov 11 17:13:33 CET 2008 - ro@suse.de
 Wed Oct 29 15:20:18 CET 2008 - sh@suse.de
 
 - Fixed bnc #438197: Need to scroll categories
-- V 2.17.2 
+- V 2.17.2
 
 -------------------------------------------------------------------
 Fri May 16 16:40:22 CEST 2008 - jsrain@suse.cz
@@ -460,7 +460,7 @@ Fri May 16 16:40:22 CEST 2008 - jsrain@suse.cz
 -------------------------------------------------------------------
 Wed Apr 30 13:57:34 CEST 2008 - sh@suse.de
 
-- Added "supplements: kdebase4-session" to .spec (bnc #385110) 
+- Added "supplements: kdebase4-session" to .spec (bnc #385110)
 
 -------------------------------------------------------------------
 Tue Apr 29 16:44:03 CEST 2008 - sh@suse.de
@@ -493,7 +493,7 @@ Wed Oct 24 14:16:28 CEST 2007 - tgoettlicher@suse.de
 -------------------------------------------------------------------
 Wed Oct 24 11:48:20 CEST 2007 - tgoettlicher@suse.de
 
-- fixed pixelated icons in YaST navigation (left pane) (#308641) 
+- fixed pixelated icons in YaST navigation (left pane) (#308641)
 - V 2.15.5
 
 -------------------------------------------------------------------
@@ -515,7 +515,7 @@ Fri Aug 24 14:10:08 CEST 2007 - sh@suse.de
 - Don't show menu entry in desktops other than KDE or GNOME
   (won't run properly anyway without root permission which is a
    non-standard extension of the desktop file format)
-- V 2.15.2 
+- V 2.15.2
 
 -------------------------------------------------------------------
 Fri Aug  3 13:03:31 CEST 2007 - sh@suse.de
@@ -533,18 +533,18 @@ Wed Apr 25 14:21:39 CEST 2007 - sh@suse.de
 
 - Fixed desktop-file-validate complaints in YaST.desktop:
   - Added 'Encoding=UTF-8'
-  - Removed duplicate X-KDE-SustituteUID 
+  - Removed duplicate X-KDE-SustituteUID
 
 -------------------------------------------------------------------
 Thu Mar 29 14:26:47 CEST 2007 - sh@suse.de
 
-- Use correct textdomain for warning popup if started as non-root 
+- Use correct textdomain for warning popup if started as non-root
 
 -------------------------------------------------------------------
 Mon Mar 19 14:26:28 CET 2007 - sh@suse.de
 
 - Added split-provides (bug #255368)
-- V 2.15.5 
+- V 2.15.5
 
 -------------------------------------------------------------------
 Mon Mar 19 14:00:00 CET 2007 - tgoettlicher@suse.de
@@ -558,7 +558,7 @@ Mon Mar  5 17:22:37 CET 2007 - sh@suse.de
   - yast2-control-center    with .desktop file and icon
   - yast2-control-center-qt with binary
 
-- V 2.14.4 
+- V 2.14.4
 
 -------------------------------------------------------------------
 Tue Feb 27 12:30:29 CET 2007 - sh@suse.de
@@ -570,12 +570,12 @@ Tue Feb 27 12:30:29 CET 2007 - sh@suse.de
 -------------------------------------------------------------------
 Fri Feb 16 14:07:58 CET 2007 - sh@suse.de
 
-- Fixed bug #246018: Typo in msg 
+- Fixed bug #246018: Typo in msg
 
 -------------------------------------------------------------------
 Tue Feb 13 15:03:06 CET 2007 - sh@suse.de
 
-- Fixed bug #240240: Added "NotShowIn=GNOME" to .desktop file 
+- Fixed bug #240240: Added "NotShowIn=GNOME" to .desktop file
 - V 2.14.2
 
 -------------------------------------------------------------------
@@ -588,24 +588,24 @@ Fri Nov 10 13:46:41 CET 2006 - sh@suse.de
 Mon Nov  6 16:06:55 CET 2006 - sh@suse.de
 
 - Fixed bug #217247: No contrast in categories list box
-- V 2.13.5 
+- V 2.13.5
 
 -------------------------------------------------------------------
 Thu Oct 26 17:33:08 CEST 2006 - sh@suse.de
 
 - Fixed bug #213869: Missing ellipsis on "Search" button
-- V 2.13.4 
+- V 2.13.4
 
 -------------------------------------------------------------------
 Wed Oct 18 18:31:41 CEST 2006 - sh@suse.de
 
-- Implemented feature #300460: Use gettext for module names 
+- Implemented feature #300460: Use gettext for module names
 - V 2.13.3
 
 -------------------------------------------------------------------
 Wed Oct 18 16:50:04 CEST 2006 - sh@suse.de
 
-- Implemented feature #300915: Increase Visibility of Search Function 
+- Implemented feature #300915: Increase Visibility of Search Function
 
 -------------------------------------------------------------------
 Tue May  2 17:54:19 CEST 2006 - sreeves@suse.de
@@ -633,13 +633,13 @@ Mon Nov 14 17:40:04 CET 2005 - sh@suse.de
 Thu Sep  1 16:20:04 CEST 2005 - sh@suse.de
 
 - V 2.12.4
-- Fixed bug #114707: Added missing translation markers 
+- Fixed bug #114707: Added missing translation markers
 
 -------------------------------------------------------------------
 Fri Jun 10 16:50:58 CEST 2005 - sh@suse.de
 
 - Fixed icon name in .desktop file
-- V 2.12.3 
+- V 2.12.3
 
 -------------------------------------------------------------------
 Thu May 19 17:22:43 CEST 2005 - sh@suse.de
@@ -649,7 +649,7 @@ Thu May 19 17:22:43 CEST 2005 - sh@suse.de
   - Removed graphical title bar
   - Removed all buttons
   - Added menus
-- V 2.12.2 
+- V 2.12.2
 
 -------------------------------------------------------------------
 Tue Apr  5 14:43:26 CEST 2005 - sh@suse.de
@@ -660,7 +660,7 @@ Tue Apr  5 14:43:26 CEST 2005 - sh@suse.de
 -------------------------------------------------------------------
 Wed Mar 16 18:13:37 CET 2005 - sh@suse.de
 
-- Fixed bug #71816: date-time module doesn't start after setting localtime 
+- Fixed bug #71816: date-time module doesn't start after setting localtime
 - V 2.11.4
 
 -------------------------------------------------------------------
@@ -673,7 +673,7 @@ Fri Feb 18 13:21:43 CET 2005 - visnov@suse.cz
 Mon Nov 29 12:23:54 CET 2004 - sh@suse.de
 
 - Fixed autobuild error: No icon installed
-- V 2.11.2 
+- V 2.11.2
 
 -------------------------------------------------------------------
 Tue Nov  2 15:14:27 CET 2004 - mvidner@suse.cz
@@ -685,18 +685,18 @@ Tue Nov  2 15:14:27 CET 2004 - mvidner@suse.cz
 Wed Oct 27 13:59:31 CEST 2004 - sh@suse.de
 
 - Added support for LANG with country code (de_DE, zh_CN, ...),
-  fall back to LANG without country (de, zh), then defaults 
+  fall back to LANG without country (de, zh), then defaults
   (bug #47668)
 
 -------------------------------------------------------------------
 Thu Aug 26 16:08:58 CEST 2004 - sh@suse.de
 
-- Bumped version to 2.10.1 
+- Bumped version to 2.10.1
 
 -------------------------------------------------------------------
 Tue May  4 16:21:55 CEST 2004 - gs@suse.de
 
-- messages from proof reading merged back 
+- messages from proof reading merged back
 
 -------------------------------------------------------------------
 Fri Apr  2 16:22:52 CEST 2004 - sh@suse.de
@@ -707,20 +707,20 @@ Fri Apr  2 16:22:52 CEST 2004 - sh@suse.de
 Thu Apr  1 18:36:57 CEST 2004 - sh@suse.de
 
 - V 2.9.10
-- Added black horizontal line below title bar 
+- Added black horizontal line below title bar
 
 -------------------------------------------------------------------
 Thu Mar 25 17:13:50 CET 2004 - sh@suse.de
 
 - V 2.9.9
-- Stole title bar layout from YQWizard (3 pics, not only 1) 
+- Stole title bar layout from YQWizard (3 pics, not only 1)
 
 -------------------------------------------------------------------
 Tue Mar 23 18:39:53 CET 2004 - sh@suse.de
 
 - V 2.9.8
 - Moved icons to yast2-theme
-- Changed icon paths to new yast2-theme paths 
+- Changed icon paths to new yast2-theme paths
 
 -------------------------------------------------------------------
 Sat Mar 06 12:41:27 CET 2004 - arvin@suse.de
@@ -1215,4 +1215,3 @@ Mon May 22 11:44:35 CEST 2000 - kkaempf@suse.de
 Thu May 18 16:54:24 CEST 2000 - kkaempf@suse.de
 
 - initial version based on YaST2 (6.4 - i386)
-
